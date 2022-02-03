@@ -15,8 +15,7 @@ module.exports = (env, argv) => {
     return {
         entry: {
             // enter EntryPoints (path file src, where key -> name build file), man! 
-            core: defPath.src + '/js/test/test.js',
-            ts: defPath.src + '/js/ts/ts.ts'
+            serega: defPath.src + '/app/index.js',
         },
         output: {
             filename: "./js/[name].js?[contenthash]",
@@ -80,7 +79,7 @@ module.exports = (env, argv) => {
                 },
                 {
                     test: /\.s[ac]ss$/i,
-                    use: [
+                    use: [MiniCssExtractPlugin.loader,
                         "css-loader",
                         "sass-loader",
                     ],
@@ -96,6 +95,18 @@ module.exports = (env, argv) => {
                     use: 'ts-loader',
                     exclude: /node_modules/,
                 },
+                {
+                    test: /\.(gif|png|jpe?g|svg)$/i,
+                    use: [
+                        'file-loader',
+                        {
+                            loader: 'image-webpack-loader',
+                            options: {
+                                outputPath: './public/build/img',
+                            },
+                        },
+                    ],
+                }
             ]
         },
         optimization: {

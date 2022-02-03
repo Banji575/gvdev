@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap);
+.Header-container {
+  background-color: #FFD883;
+}
+
+.Header-title {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.Header-title p {
+  margin: 0;
+  text-align: center;
+  color: #0FB783;
+}
+.font-title {
+  font-family: "Rowdies", cursive;
+  font-weight: 700;
+}
+
+.font-regular {
+  font-family: "Rowdies", cursive;
+  font-weight: 400;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

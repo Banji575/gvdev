@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap);
 .Header-container {
-  background-color: #FFD883;
+  background-color: #C13000;
 }
 
 .Header-title {
@@ -32,6 +32,10 @@
 
 .fs-36 {
   font-size: 36px;
+}
+
+.color-1 {
+  color: white !important;
 }
 
 body {

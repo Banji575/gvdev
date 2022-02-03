@@ -9,7 +9,7 @@ export const Header = () =>{
                     </div>
                     <div className='Header-title '>
                         <p className='font-title fs-36'>Game developer</p>
-                        <p className='font-regular fs-18'>Creating game on WebGL and mobile </p>
+                        <p className='font-regular fs-18 color-1'>Creating game on WebGL and mobile </p>
                     </div>
             </div>
         </div>

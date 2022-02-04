@@ -1,1 +1,131 @@
-@import url(https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap);.Header-container{background-color:#4a00ff;border-top:10px solid #feb093;border-left:10px solid #636b6b;border-right:10px solid #636b6b;border-bottom:10px solid #feb093;padding-top:10%;padding-bottom:20%}.photo-img{width:150px;height:150px}.Header{display:flex;flex-direction:column}.Header-photo{margin:0 auto}.Header-title p{margin:0;text-align:center;color:#bb64a5}.font-title{font-family:Rowdies,cursive;font-weight:700}.font-regular-curs{font-family:Rowdies,cursive;font-weight:400}.font-regular{font-family:Rowdies;font-weight:400}.font-light{font-family:Rowdies;font-weight:300}.fs-18{font-size:18px}.fs-16{font-size:16px}.fs-12{font-size:12px}.fs-24{font-size:24px}.fs-36{font-size:36px}.color-1{color:#fff!important}body{margin:0;padding:0;width:100%}.AboutMe-container{padding:0 2% 0 2%;background-color:#fef41a;padding-top:5%;padding-bottom:5%}.AboutMe-container p{margin:0;padding-left:10px}.AboutMe-title{background-color:#ef489c;width:80%;border-radius:8px;margin:15px 0 15px 0}.AboutMe-article{padding:1% 10px;border:1px solid #414141;border-radius:10px;color:#414141}.AboutMe-item{margin-bottom:35px}.ProjectItem{background-color:#242a28;padding:50px;margin-bottom:5%}.Projects-container{background-color:#fd576c;padding:10%}.Projects-container p{color:#f0f2e6;text-align:center}.Contacts{background-color:#43d8bd;padding:20%}
+@import url(https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap);
+.Header-container {
+  background-color: #4A00FF;
+  border-top: 10px solid #FEB093;
+  border-left: 10px solid #636b6b;
+  border-right: 10px solid #636b6b;
+  border-bottom: 10px solid #FEB093;
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+.photo-img {
+  width: 150px;
+  height: 150px;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header-photo {
+  margin: 0 auto;
+}
+
+.Header-title p {
+  margin: 0;
+  text-align: center;
+  color: #bb64a5;
+}
+.font-title {
+  font-family: "Rowdies", cursive;
+  font-weight: 700;
+}
+
+.font-regular-curs {
+  font-family: "Rowdies", cursive;
+  font-weight: 400;
+}
+
+.font-regular {
+  font-family: "Rowdies";
+  font-weight: 400;
+}
+
+.font-light {
+  font-family: "Rowdies";
+  font-weight: 300;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.color-1 {
+  color: white !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.AboutMe-container {
+  padding: 0 2% 0 2%;
+  background-color: #FEF41A;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.AboutMe-container p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.AboutMe-title {
+  background-color: #EF489C;
+  width: 80%;
+  border-radius: 8px;
+  margin: 15px 0 15px 0;
+}
+
+.AboutMe-article {
+  padding: 1% 10px;
+  border: 1px solid #414141;
+  border-radius: 10px;
+  color: #414141;
+}
+.AboutMe-item {
+  margin-bottom: 35px;
+}
+.ProjectItem {
+  background-color: #242A28;
+  margin-bottom: 5%;
+}
+
+.ProjectItem-descript img {
+  width: 50%;
+  height: 50%;
+}
+.Projects-container {
+  background-color: #FD576C;
+  padding: 10%;
+}
+.Projects-container p {
+  color: #F0F2E6;
+  text-align: center;
+}
+.Contacts {
+  background-color: #43D8BD;
+  padding: 20%;
+}

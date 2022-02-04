@@ -85,7 +85,7 @@ module.exports = (env, argv) => {
                     ],
                 },
                 {
-                    test: /\.(woff(2)?|ttf|eot|svg|png|jpg)(\?v=\d+\.\d+\.\d+)?$/,
+                    test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
                     use: [{
                         loader: 'url-loader',
                     }, ]
@@ -97,15 +97,13 @@ module.exports = (env, argv) => {
                 },
                 {
                     test: /\.(gif|png|jpe?g|svg)$/i,
-                    use: [
-                        'file-loader',
-                        {
-                            loader: 'image-webpack-loader',
-                            options: {
-                                outputPath: './public/build/img',
-                            },
+                    use: [{
+                        loader: 'file-loader',
+                        options: {
+                            type: 'asset/resource',
+                            name: './img/[name].[ext]',
                         },
-                    ],
+                    }, ],
                 }
             ]
         },

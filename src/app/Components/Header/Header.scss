@@ -1,14 +1,35 @@
 .Header-container {
     // background-color: #FFD883;
-    background-color: #C13000;
+    background-color: #4A00FF;
+    border-top: 10px solid #FEB093;
+    border-left: 10px solid #636b6b;
+    border-right: 10px solid #636b6b;
+    border-bottom: 10px solid #FEB093;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    // border-style: outset;
+}
+
+.photo-img {
+    width: 150px;
+    height: 150px;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header-photo {
+    margin: 0 auto;
 }
 
 .Header-title {
-    padding-top: 20%;
-    padding-bottom: 20%;
+    // padding-top: 20%;
+    // padding-bottom: 20%;
     p {
         margin: 0;
         text-align: center;
-        color: #0FB783
+        color: #bb64a5
     }
 }

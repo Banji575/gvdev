@@ -50,13 +50,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/app/Components/Projects/ProjectIcon/ProjectIcon.js":
+/*!****************************************************************!*\
+  !*** ./src/app/Components/Projects/ProjectIcon/ProjectIcon.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ProjectIcon\": () => (/* binding */ ProjectIcon)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar ProjectIcon = function ProjectIcon(_ref) {\n  var icons = _ref.icons;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectIcons\"\n  }, icons.map(function (el) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n      src: el\n    });\n  }));\n};\n\n//# sourceURL=webpack://mysite.ru/./src/app/Components/Projects/ProjectIcon/ProjectIcon.js?");
+
+/***/ }),
+
 /***/ "./src/app/Components/Projects/ProjectItem/ProjectItem.js":
 /*!****************************************************************!*\
   !*** ./src/app/Components/Projects/ProjectItem/ProjectItem.js ***!
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ProjectItem\": () => (/* binding */ ProjectItem)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _ImageWrapper_ImageWrapper_tsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../ImageWrapper/ImageWrapper.tsx */ \"./src/app/Components/ImageWrapper/ImageWrapper.tsx\");\n/* harmony import */ var _img_game1_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../img/game1.jpg */ \"./src/app/img/game1.jpg\");\n/* harmony import */ var _ProjectItem_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ProjectItem.scss */ \"./src/app/Components/Projects/ProjectItem/ProjectItem.scss\");\n\n\n\n\nvar ProjectItem = function ProjectItem() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectItem\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectItem-img\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectItem-descript\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ImageWrapper_ImageWrapper_tsx__WEBPACK_IMPORTED_MODULE_1__.ImageWrapper, {\n    className: \"\",\n    src: _img_game1_jpg__WEBPACK_IMPORTED_MODULE_2__.default\n  })));\n};\n\n//# sourceURL=webpack://mysite.ru/./src/app/Components/Projects/ProjectItem/ProjectItem.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ProjectItem\": () => (/* binding */ ProjectItem)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _ProjectIcon_ProjectIcon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ProjectIcon/ProjectIcon */ \"./src/app/Components/Projects/ProjectIcon/ProjectIcon.js\");\n/* harmony import */ var _img_playcavas_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../img/playcavas.jpg */ \"./src/app/img/playcavas.jpg\");\n/* harmony import */ var _ProjectItem_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ProjectItem.scss */ \"./src/app/Components/Projects/ProjectItem/ProjectItem.scss\");\n\n // import { ImageWrapper } from \"../../ImageWrapper/ImageWrapper.tsx\";\n\n\n\nvar ProjectItem = function ProjectItem(_ref) {\n  var src = _ref.src;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectItem-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectItem\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectItem-img\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: src,\n    alt: \"\",\n    srcset: \"\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectItem-descript\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectItem-iconContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectIcon_ProjectIcon__WEBPACK_IMPORTED_MODULE_1__.ProjectIcon, {\n    icons: [_img_playcavas_jpg__WEBPACK_IMPORTED_MODULE_2__.default]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectIcon_ProjectIcon__WEBPACK_IMPORTED_MODULE_1__.ProjectIcon, {\n    icons: [_img_playcavas_jpg__WEBPACK_IMPORTED_MODULE_2__.default]\n  }))));\n};\n\n//# sourceURL=webpack://mysite.ru/./src/app/Components/Projects/ProjectItem/ProjectItem.js?");
 
 /***/ }),
 
@@ -66,7 +76,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Projects\": () => (/* binding */ Projects)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProjectItem/ProjectItem */ \"./src/app/Components/Projects/ProjectItem/ProjectItem.js\");\n/* harmony import */ var _Projects_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Projects.scss */ \"./src/app/Components/Projects/Projects.scss\");\n\n\n\nvar Projects = function Projects() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"Projects-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", {\n    className: \"fs-24 font-regular\"\n  }, \"PROJECTS\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, null));\n};\n\n//# sourceURL=webpack://mysite.ru/./src/app/Components/Projects/Projects.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Projects\": () => (/* binding */ Projects)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProjectItem/ProjectItem */ \"./src/app/Components/Projects/ProjectItem/ProjectItem.js\");\n/* harmony import */ var _Projects_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Projects.scss */ \"./src/app/Components/Projects/Projects.scss\");\n/* harmony import */ var _img_game2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../img/game2.jpg */ \"./src/app/img/game2.jpg\");\n/* harmony import */ var _img_game3_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../img/game3.jpg */ \"./src/app/img/game3.jpg\");\n/* harmony import */ var _img_game4_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../img/game4.jpg */ \"./src/app/img/game4.jpg\");\n\n\n\n\n\n\nvar Projects = function Projects() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"Projects-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", {\n    className: \"fs-24 font-regular\"\n  }, \"PROJECTS\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, {\n    src: _img_game2_jpg__WEBPACK_IMPORTED_MODULE_3__.default\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, {\n    src: _img_game3_jpg__WEBPACK_IMPORTED_MODULE_4__.default\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, {\n    src: _img_game4_jpg__WEBPACK_IMPORTED_MODULE_5__.default\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectItem_ProjectItem__WEBPACK_IMPORTED_MODULE_1__.ProjectItem, null));\n};\n\n//# sourceURL=webpack://mysite.ru/./src/app/Components/Projects/Projects.js?");
 
 /***/ }),
 
@@ -80,13 +90,33 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
-/***/ "./src/app/img/game1.jpg":
+/***/ "./src/app/img/game2.jpg":
 /*!*******************************!*\
-  !*** ./src/app/img/game1.jpg ***!
+  !*** ./src/app/img/game2.jpg ***!
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"./img/game1.jpg\");\n\n//# sourceURL=webpack://mysite.ru/./src/app/img/game1.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"./img/game2.jpg\");\n\n//# sourceURL=webpack://mysite.ru/./src/app/img/game2.jpg?");
+
+/***/ }),
+
+/***/ "./src/app/img/game3.jpg":
+/*!*******************************!*\
+  !*** ./src/app/img/game3.jpg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"./img/game3.jpg\");\n\n//# sourceURL=webpack://mysite.ru/./src/app/img/game3.jpg?");
+
+/***/ }),
+
+/***/ "./src/app/img/game4.jpg":
+/*!*******************************!*\
+  !*** ./src/app/img/game4.jpg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"./img/game4.jpg\");\n\n//# sourceURL=webpack://mysite.ru/./src/app/img/game4.jpg?");
 
 /***/ }),
 
@@ -97,6 +127,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"./img/photo.png\");\n\n//# sourceURL=webpack://mysite.ru/./src/app/img/photo.png?");
+
+/***/ }),
+
+/***/ "./src/app/img/playcavas.jpg":
+/*!***********************************!*\
+  !*** ./src/app/img/playcavas.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"./img/playcavas.jpg\");\n\n//# sourceURL=webpack://mysite.ru/./src/app/img/playcavas.jpg?");
 
 /***/ }),
 
@@ -257,16 +297,6 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ \"./node_modules/scheduler/cjs/scheduler-tracing.development.js\");\n}\n\n\n//# sourceURL=webpack://mysite.ru/./node_modules/scheduler/tracing.js?");
-
-/***/ }),
-
-/***/ "./src/app/Components/ImageWrapper/ImageWrapper.tsx":
-/*!**********************************************************!*\
-  !*** ./src/app/Components/ImageWrapper/ImageWrapper.tsx ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ImageWrapper\": () => (/* binding */ ImageWrapper)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module 'styled-components'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nvar __makeTemplateObject = (undefined && undefined.__makeTemplateObject) || function (cooked, raw) {\r\n    if (Object.defineProperty) { Object.defineProperty(cooked, \"raw\", { value: raw }); } else { cooked.raw = raw; }\r\n    return cooked;\r\n};\r\n\r\n\r\nvar enumRatio;\r\n(function (enumRatio) {\r\n    enumRatio[\"100%\"] = \"100%\";\r\n    enumRatio[\"1/2\"] = \"50%\";\r\n    enumRatio[\"3/4\"] = \"75%\";\r\n})(enumRatio || (enumRatio = {}));\r\nvar ImageWrapper = function (_a) {\r\n    var _b = _a.className, className = _b === void 0 ? \"\" : _b, _c = _a.src, src = _c === void 0 ? \"\" : _c, _d = _a.ratio, ratio = _d === void 0 ? \"100%\" : _d;\r\n    var dataRatio = enumRatio;\r\n    var Wrapper = Object(function webpackMissingModule() { var e = new Error(\"Cannot find module 'styled-components'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())(templateObject_1 || (templateObject_1 = __makeTemplateObject([\"\\n    position: relative;\\n    width: 100%;\\n    padding-top: \", \";\\n    > img {\\n      position: absolute;\\n      top: 0;\\n      left: 0;\\n      bottom: 0;\\n      right: 0;\\n      margin: auto;\\n      max-height: auto;\\n      width: 100%;\\n    }\\n  \"], [\"\\n    position: relative;\\n    width: 100%;\\n    padding-top: \", \";\\n    > img {\\n      position: absolute;\\n      top: 0;\\n      left: 0;\\n      bottom: 0;\\n      right: 0;\\n      margin: auto;\\n      max-height: auto;\\n      width: 100%;\\n    }\\n  \"])), function (props) { return dataRatio[props.ratio]; });\r\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(Wrapper, { ratio: ratio },\r\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: src, alt: \"\", className: className })));\r\n};\r\nvar templateObject_1;\r\n\n\n//# sourceURL=webpack://mysite.ru/./src/app/Components/ImageWrapper/ImageWrapper.tsx?");
 
 /***/ })
 

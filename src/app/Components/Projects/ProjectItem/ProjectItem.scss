@@ -1,12 +1,57 @@
 .ProjectItem {
     background-color: #242A28;
     // padding: 1% 5%;
-    margin-bottom: 5%;
+    display: flex;
+    position: relative;
+}
+
+.ProjectItem-img {
+    position: relative;
+    width: 80%;
+    padding-top: 100%;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto 0;
+        max-height: 100%;
+        width: auto;
+    }
+}
+
+.ProjectItem-iconContainer {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto 0;
+        max-height: 100%;
+        width: 100%;
+    }
 }
 
 .ProjectItem-descript {
-    img {
-        width: 50%;
-        height: 50%;
-    }
+    width: 100%;
+    height: 50%;
+    background-color: #EFBC4E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    // position: absolute;
+    // right: 0;
+    // /* top: 0; */
+    // bottom: 0;
+    // left: 0;
+}
+
+.ProjectItem-container {
+    position: relative;
+    margin-bottom: 5%;
 }
